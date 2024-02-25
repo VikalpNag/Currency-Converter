@@ -24,7 +24,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: rgba(3, 177, 252, 0.159);
-    height: 450px;
+    height: 530px;
     width: 400px;
     margin-top: 80px;
     border-radius:30px ;
@@ -33,10 +33,13 @@ body{
 }
 
 h2{
-    font-weight: 600;
-    font-size: 30px;
-    color: white;
-    padding: 0;
+    font-weight: 800;
+    font-size: 25px;
+    color:orange;
+    padding: 5px;
+    border: 5px solid orange;
+    border-radius: 20px;
+    background-color: white;
 
 }
 
@@ -48,17 +51,20 @@ align-items: center;
 }
 
 form .amount{
-    margin: 0;padding: 0;
+    margin: 0;padding: 0px;
     display: flex;
     flex-direction: column;
     gap: 0;
 }
 
 form .amount p{
-    color: white;
+    color: rgb(56, 56, 56);
     margin: 0;
     font-size: 17px;
-    font-weight: 500;
+    font-weight: 600;
+    margin-bottom: 4px;
+    margin-left: 5px;
+
 }
 
 form .amount input{
@@ -67,7 +73,7 @@ form .amount input{
     border-radius: 6px;
     height: 30px;
     width: 300px;
-    padding-left: 10px;
+    padding-left: 8px;
 }
 
 .dropdown{
@@ -80,13 +86,17 @@ form .amount input{
 }
 
 .dropdown p{
-    color: rgb(255, 253, 253);
-    border-bottom: 2px solid  white;
+    color: rgb(64, 64, 63);
+    font-size: 23px;
+    font-weight: 700;
+    margin: 0;
+    
 }
 
 .msg{
-    color: white;
-    font-size: 30px;
+    color: rgb(76, 76, 76);
+    font-size: 20px;
+    font-weight: 700;
 }
 
 button{
@@ -106,7 +116,7 @@ button{
 
 .select-container select option{
     border: 0px;
-    background-color: rgb(179, 179, 179);
+    background-color: rgb(27, 27, 27);
     color: white;
 }
 
@@ -114,13 +124,18 @@ button{
     border: 0px;
     width: 80px;
     height: 30px;
-    border-radius: 7px;
+    border-radius: 3px;
     padding-right: 8px;
     margin-top: 10px;
+    outline: none;
+    cursor: pointer;
 }
-
 img{
-    height: 30px;
+    height: 80px;
     width: 80px;
-    background-color: white;
+    margin: 0;
+}
+i{
+    margin-top: 60px;
+    font-size: 30px; ;
 }
